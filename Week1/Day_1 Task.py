@@ -1,43 +1,22 @@
-#print("Hello, World!")
+# Task 1: Swapping two numbers without using a third variable
+#Method 1: Using arithmetic operations
+print("Method 1: Using arithmetic operations")
+a = 78
+b = 109
 
-#1.program
-# message = "Hello, World!"
-# print(message)
+a = a + b
+b = a - b
+a = a - b
 
-# message = "Hello, Python!"
-# print(message)
+print("a=", a)
+print("b=", b)
 
+# Method 2: Using tuple unpacking
+print("\nMethod 2: Using tuple unpacking")
 
-# 2. program
-# name = "ada lovelace"
-# print(name.upper())
-# print(name.lower())
+a = 223
+b = 109
 
-# 3 program
-# first_name = "Syed " 
-# second_name = "Mehdi"
-# print(first_name + second_name)
-# #or
-# full_name = first_name + second_name
-# print(full_name)
-
-#4. program
-# print("Languages: \n\tPython\n\tC\n\tJavaScript\n\tJava\n\tC++")
-
-#5 program
-# age = 45
-
-# message = "Happy " + str(age) + "th Birthday"
-# print(message)
-# #or
-# print(f"Happy {age}th Birthday")
-
-#6 program
-
-# print(5 + 3)
-# print(18 - 10)
-# print(4 * 2)
-# print(16 / 2)
-
-# fav_number = 5
-# print("My Fav Number is : " + str(fav_number))
+a, b = b, a
+print("a=", a)
+print("b=", b)
