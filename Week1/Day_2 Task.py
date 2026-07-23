@@ -25,3 +25,13 @@ if text == text[::-1]:
     print("Palindrome")
 else:
     print("Not Palindrome")
+
+# Check whether two strings are anagrams
+
+string1 = input("Enter first string: ").lower().replace(" ", "")
+string2 = input("Enter second string: ").lower().replace(" ", "")
+
+if sorted(string1) == sorted(string2):
+    print("The strings are Anagrams.")
+else:
+    print("The strings are NOT Anagrams.")

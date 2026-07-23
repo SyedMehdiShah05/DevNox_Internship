@@ -33,3 +33,15 @@ a = a ^ b
 
 print("a=", a)
 print("b=", b)
+
+# Reverse a string without using a built-in reverse function.
+
+text = input("Enter a string: ")
+
+reversed_text = ""
+
+# Traverse the string from the last character to the first
+for i in range(len(text) - 1, -1, -1):
+    reversed_text += text[i]
+
+print("Reversed String:", reversed_text)
