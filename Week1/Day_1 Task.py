@@ -20,3 +20,16 @@ b = 109
 a, b = b, a
 print("a=", a)
 print("b=", b)
+
+#method 3: Using XOR bitwise operation
+print("\nMethod 3: Using XOR bitwise operation")
+
+a = 223
+b = 109
+
+a = a ^ b
+b = a ^ b
+a = a ^ b
+
+print("a=", a)
+print("b=", b)
