@@ -1,4 +1,4 @@
-Week 1 Learning Outcomes
+Week 1 Learning Outcomes\n
 Python Programming Fundamentals
 Variables
 Data types
