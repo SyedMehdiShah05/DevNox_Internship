@@ -1,6 +1,7 @@
 # Week 1 Learning Outcomes
+
 - Python Programming Fundamentals
-- Variables 
+- Variables
 - Data types
 - Input/output
 - Arithmetic and logical operators
