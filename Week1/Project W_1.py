@@ -20,27 +20,21 @@ def calculate_percentage(marks):
 # Function to calculate the grade based on percentage
 def calculate_grade(percentage):
 
-    # If percentage is 90 or above
     if percentage >= 90:
         return "A+"
-
-    # If percentage is between 80 and 89
+ 
     elif percentage >= 80:
         return "A"
-
-    # If percentage is between 70 and 79
+ 
     elif percentage >= 70:
         return "B"
-
-    # If percentage is between 60 and 69
+ 
     elif percentage >= 60:
         return "C"
-
-    # If percentage is between 50 and 59
+ 
     elif percentage >= 50:
         return "D"
-
-    # If percentage is below 50
+ 
     else:
         return "F"
 
