@@ -1,4 +1,4 @@
-# Build a small function library: temperature converter + simple area calculator (circle, rectangle).
+# Task 4 a: Build a small function library: temperature converter + simple area calculator (circle, rectangle).
 
 def celsius_to_fahrenheit(celsius):
     return (celsius * 9/5) + 32
@@ -9,7 +9,7 @@ def fahrenheit_to_celsius(fahrenheit):
 print("25°C =", celsius_to_fahrenheit(25), "°F")
 print("77°F =", fahrenheit_to_celsius(77), "°C")
 
-# Area calculator functions
+# task 4 b : Area calculator functions
 def circle_area(radius):
     return 3.14159 * radius * radius
 
@@ -21,7 +21,7 @@ def rectangle_area(length, width):
 print("Circle Area =", circle_area(5))
 print("Rectangle Area =", rectangle_area(10, 4))
 
-# Task4: Create a Student class with name/marks attributes and a method to compute grade.
+# Task 4 c : Create a Student class with name/marks attributes and a method to compute grade.
 class Student:
 
     def __init__(self, name, marks):
