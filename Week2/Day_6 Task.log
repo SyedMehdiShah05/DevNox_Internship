@@ -51,7 +51,7 @@ Step 9: Create GitHub Repository
 Step 10: Connect Local Repository to GitHub
 
  Replace <username> with your GitHub username.
- git remote add origin https://github.com/<username>/Week2-Python.git
+ git remote add origin https://github.com/<syedmehdishah05>/Week2-Python.git
 
 Verify:
 

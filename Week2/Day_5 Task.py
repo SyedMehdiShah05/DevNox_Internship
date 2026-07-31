@@ -1,7 +1,7 @@
 import logging
 
 logging.basicConfig(
-    filename="login.log",
+    filename="Week2/login.log",
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
