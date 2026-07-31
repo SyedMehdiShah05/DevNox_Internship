@@ -1,0 +1,146 @@
+ Install Git
+
+Step 1: Configure Git (First Time Only)
+>>> git config --global user.name "Your Name"
+>>> git config --global user.email "your_email@example.com"
+
+Verify:
+
+>>> git config --list
+.................................
+
+Step 2: Create a Project Folder
+
+Step 3: Initialize Git Repository
+  git init
+
+Step 4: Check Repository Status
+ git status
+
+Step 5: Add Files
+ 
+ git add .
+
+Step 6: Commit Changes
+ git commit -m "Initial project setup"
+ 
+
+Step 7: Create a New Branch
+ git branch feature-csv-json
+
+Check branches:
+ git branch
+ 
+Step 8: Commit Changes
+
+ Check status:
+ git status
+ Add changes:
+ git add task1.py
+
+Commit:
+ git commit -m "Completed CSV and JSON practice"
+.................................................
+
+Step 9: Create GitHub Repository
+ Go to GitHub.
+ Create a repository named:
+ Week2-Python
+ Do not initialize it with a README if your local project already has one.
+
+Step 10: Connect Local Repository to GitHub
+
+ Replace <username> with your GitHub username.
+ git remote add origin https://github.com/<username>/Week2-Python.git
+
+Verify:
+
+ git remote -v
+
+Step 11: Push Code
+
+ Push the main branch:
+ git push -u origin main
+ Push the feature branch:
+ 
+Step 12: Create a Pull Request
+
+ On GitHub:
+ Open your repository.
+ Click Compare & pull request.
+ Add a title.
+
+Example:
+
+ Completed CSV & JSON Task
+ Description:
+ Added Task 1 solution.
+ Implemented CSV and JSON reading, writing, parsing, and filtering.
+
+Click:
+
+ Create Pull Request
+
+
+Step 13: Merge Pull Request
+ Click:
+ Merge Pull Request
+ Then:
+ Confirm Merge
+ 
+Step 14: Update Local Main Branch
+ Switch back:
+ git switch main
+ Pull latest changes:
+ git pull origin main
+
+
+Step 15: Delete Feature Branch
+ Delete locally:
+ git branch -d feature-csv-json
+ Delete on GitHub:
+ git push origin --delete feature-csv-json
+
+........................................
+
+Complete Git Workflow
+Create Folder
+        │
+        ▼
+git init
+        │
+        ▼
+Create Files
+        │
+        ▼
+git status
+        │
+        ▼
+git add .
+        │
+        ▼
+git commit
+        │
+        ▼
+Create Branch
+        │
+        ▼
+Modify Code
+        │
+        ▼
+git add .
+        │
+        ▼
+git commit
+        │
+        ▼
+Push Branch
+        │
+        ▼
+Pull Request
+        │
+        ▼
+Merge
+        │
+        ▼
+Pull Latest Changes
