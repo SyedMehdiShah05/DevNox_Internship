@@ -1,7 +1,7 @@
+ 
 
-=========================================
-DATA CLEANING REPORT
-=========================================
+DATA CLEANING REPORT 
+#####################
 
 Rows Before Cleaning : 10
 
@@ -17,8 +17,10 @@ Average Age          : 20.14
 
 Average Marks        : 83.46
 
-Execution Time       : 0:00:00.076691
+Execution Time       : 0:00:00.070402
 
 Output File          : cleaned_data.csv
 
-=========================================
+
+
+################################# 
