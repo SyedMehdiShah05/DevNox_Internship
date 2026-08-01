@@ -1,0 +1,29 @@
+2026-08-01 16:59:51,157 - INFO - Data loaded successfully.  
+2026-08-01 16:59:51,172 - INFO - Duplicates removed : 1  
+2026-08-01 16:59:51,175 - INFO - Extra spaces removed from string columns.  
+2026-08-01 16:59:51,176 - INFO - City names standardized.  
+2026-08-01 16:59:51,180 - INFO - Missing values filled: 4  
+2026-08-01 17:00:56,626 - INFO - Data loaded successfully.  
+2026-08-01 17:00:56,630 - INFO - Duplicates removed : 1  
+2026-08-01 17:00:56,631 - INFO - Extra spaces removed from string columns.  
+2026-08-01 17:00:56,633 - INFO - City names standardized.  
+2026-08-01 17:00:56,637 - INFO - Missing values filled: 4  
+2026-08-01 17:00:56,639 - INFO - Invalid rows removed: 2  
+2026-08-01 17:00:56,647 - INFO - Cleaned dataset saved.  
+2026-08-01 17:00:56,649 - INFO - Cleaning report generated.  
+2026-08-01 17:00:59,792 - INFO - Data loaded successfully.  
+2026-08-01 17:00:59,796 - INFO - Duplicates removed : 1  
+2026-08-01 17:00:59,797 - INFO - Extra spaces removed from string columns.  
+2026-08-01 17:00:59,798 - INFO - City names standardized.  
+2026-08-01 17:00:59,804 - INFO - Missing values filled: 4  
+2026-08-01 17:00:59,806 - INFO - Invalid rows removed: 2  
+2026-08-01 17:00:59,808 - INFO - Cleaned dataset saved.  
+2026-08-01 17:00:59,810 - INFO - Cleaning report generated.  
+2026-08-01 17:02:53,886 - INFO - Data loaded successfully.  
+2026-08-01 17:02:53,903 - INFO - Duplicates removed : 1  
+2026-08-01 17:02:53,904 - INFO - Extra spaces removed from string columns.  
+2026-08-01 17:02:53,921 - INFO - City names standardized.  
+2026-08-01 17:02:53,925 - INFO - Missing values filled: 4  
+2026-08-01 17:02:53,942 - INFO - Invalid rows removed: 2  
+2026-08-01 17:02:53,958 - INFO - Cleaned dataset saved.  
+2026-08-01 17:02:53,975 - INFO - Cleaning report generated.  
