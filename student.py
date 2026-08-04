@@ -8,6 +8,6 @@ class Student:
         return f" Name : {self.name} | Student_ID: {self.student_id}  | Grade : {self.grade}"
 
     #def display(self):
-       #print("Name : {self.name}")
-       #print("ID : {self.student_id}")
-       #print("Grade : {self.grade}")
+       #print(f"Name : {self.name}")
+       #print(f"ID : {self.student_id}")
+       #print(f"Grade : {self.grade}")
