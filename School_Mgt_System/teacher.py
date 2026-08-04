@@ -5,7 +5,7 @@ class Teacher:
         self.contact = contact
 
     def display(self):
-        return f"Name : {self.name} | Teacher: {self.specialization} | Contact : {self.contact}"
+        return f"Name: {self.name} | Teaches: {self.specialization} | Contact: {self.contact}"
 
     def display_info(self):
-        return self.display()
+        return f"Teacher Name: {self.name}, Specialization: {self.specialization}, Contact: {self.contact}"

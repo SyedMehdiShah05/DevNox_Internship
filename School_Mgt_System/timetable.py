@@ -7,7 +7,5 @@ class Timetable:
     def display(self):
         return f"{self.day} at {self.timing} - {self.subject}"
 
-    def display_info(self):
-        return self.display()
-
-  
+    def __str__(self):
+        return f"Timetable: {self.day} at {self.timing} - {self.subject}"

@@ -6,7 +6,7 @@ from timetable import Timetable
 
 def main():
     my_school = School("Hazara Public School", "Dhodial Mansehra")
-    print(f"Welcome to {my_school.name}")
+    print(f"\nWelcome to {my_school.name}")
 
     while True:
         print("\nMain Menu:")
@@ -48,16 +48,16 @@ def main():
 
         elif choice == '5':
             print("\nStudents:")
-            for student in my_school.student: print(student.display_info())
+            for student in my_school.students: print(student.display_info())
                 
             print("\nTeachers:")
-            for teacher in my_school.teacher: print(teacher.display_info())
+            for teacher in my_school.teachers: print(teacher.display_info())
                 
             print("\nClassrooms:")
-            for classroom in my_school.classroom: print(classroom.display_info())
+            for classroom in my_school.classrooms: print(classroom.display_info())
           
             print("\nTimetables:")
-            for timetable in my_school.timetable: print(timetable.display_info())
+            for timetable in my_school.timetables: print(timetable.display_info())
 
         elif choice == '6':
             print("Exiting the program. Goodbye!")
@@ -67,3 +67,26 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+import psycopg2
+
+try:
+    # Connecting to the Aiven PostgreSQL database
+    connection = psycopg2.connect(
+        host="pg-17c55422-mehdiiims05-10be.a.aivencloud.com",
+        database="defaultdb",
+        user="avnadmin",
+        port="21182",
+        sslmode="require"
+    )
+    
+    # The cursor allows Python code to execute PostgreSQL command in a database session
+    cursor = connection.cursor()
+    print("Successfully connected to the School Management System Database!")
+
+    # --- Your application logic will go here ---
+    # For example, calling functions from classroom.py, student.py, etc.
+
+except Exception as error:
+    print(f"Error connecting to database: {error}")

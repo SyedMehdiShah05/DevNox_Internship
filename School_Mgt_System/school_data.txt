@@ -1,0 +1,10 @@
+STUDENT |  Name : mehdi | Student_ID: 301  | Grade : 89
+STUDENT |  Name : mehdi | Student_ID: 901  | Grade : 89
+TEACHER | Name : Rauf | Teacher: Python | Contact : 0322191818
+STUDENT | ID: 76 | Name: mehdi | Grade: 44
+TEACHER | Name: zaryab | Teaches: c++ | Contact: 0342222
+CLASSROOM | Room ID: e3 | Capacity: 45 | Type: lec
+TIMETABLE | monday at 10:30 - Computer
+STUDENT | ID: 65 | Name: khan | Grade: 99
+TIMETABLE | tuesday at 11:00 - java
+CLASSROOM | Room ID: C09 | Capacity: 80 | Type: Lab
