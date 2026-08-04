@@ -7,6 +7,9 @@ class Student:
     def display(self):
         return f" Name : {self.name} | Student_ID: {self.student_id}  | Grade : {self.grade}"
 
+    def display_info(self):
+        return self.display()
+
     #def display(self):
        #print(f"Name : {self.name}")
        #print(f"ID : {self.student_id}")

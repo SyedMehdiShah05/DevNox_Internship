@@ -3,7 +3,11 @@ class Timetable:
         self.day = day
         self.timing = timing
         self.subject = subject
+
     def display(self):
         return f"{self.day} at {self.timing} - {self.subject}"
+
+    def display_info(self):
+        return self.display()
 
   

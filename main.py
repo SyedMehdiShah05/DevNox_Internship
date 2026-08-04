@@ -34,31 +34,30 @@ def main():
 
         elif choice == '3':
             c_id = input("Enter classroom ID: ")
-            cap = int(input("Enter classroom capacity: "))
+            cap = input("Enter classroom capacity: ")
             rtype = input("Enter classroom type (Lab/Lecture): ")
             new_room = Classroom(c_id, cap, rtype)
             my_school.add_classroom(new_room)
 
         elif choice == '4':
             day = input("Enter day : ")
-            time = input("Enter time (H, M): ")
+            time = input("Enter time (H:M): ")
             subject = input("Enter subject: ")
-            teacher_name = input("Enter teacher name: ")
-            new_time = Timetable(day, time, subject, teacher_name)
+            new_time = Timetable(day, time, subject)
             my_school.add_timetable(new_time)
 
         elif choice == '5':
             print("\nStudents:")
-            for student in my_school.students: print(student.display_info())
+            for student in my_school.student: print(student.display_info())
                 
             print("\nTeachers:")
-            for teacher in my_school.teachers: print(teacher.display_info())
+            for teacher in my_school.teacher: print(teacher.display_info())
                 
             print("\nClassrooms:")
-            for classroom in my_school.classrooms: print(classroom.display_info())
+            for classroom in my_school.classroom: print(classroom.display_info())
           
             print("\nTimetables:")
-            for timetable in my_school.timetables: print(timetable.display_info())
+            for timetable in my_school.timetable: print(timetable.display_info())
 
         elif choice == '6':
             print("Exiting the program. Goodbye!")

@@ -6,3 +6,6 @@ class Classroom:
 
     def display(self):
         return f"Class ID: {self.class_id} | Capacity: {self.capacity} | Room Type = {self.room_type}"
+
+    def display_info(self):
+        return self.display()

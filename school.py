@@ -13,15 +13,16 @@ class School:
 
     def add_teacher(self, teacher):
         self.teacher.append(teacher)
-        print(f"Succes : Teacher Added {teacher.name}")
+        print(f"Success : Teacher Added {teacher.name}")
 
     def add_classroom(self, classroom):
-            self.student.append(classroom)
-            print(f"Success : classroom Added {classroom.name}")
+        self.classroom.append(classroom)
+        print(f"Success : Classroom Added {classroom.class_id}") 
     
     def add_timetable(self, timetable):
-            self.teacher.append(timetable)
-            print(f"Succes : Timetable Added {timetable.name}")
+        self.timetable.append(timetable)
+        print(f"Success : Timetable Added {timetable.day} {timetable.timing}")
+        
             
     
         
