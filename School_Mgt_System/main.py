@@ -110,7 +110,7 @@ def main():
                 my_school.delete_timetable(day, time)
             else:
                 print("Invalid choice for deletion.")
-                
+
         elif choice == '7':
             print("Exiting the program. Goodbye!")
             break
@@ -131,7 +131,7 @@ if __name__ == "__main__":
                 host="pg-17c55422-mehdiiims05-10be.a.aivencloud.com",
                 database="defaultdb",
                 user="avnadmin",
-                password="AVNS_1tS7zBS6pi4U5MNH53g",
+                #password="AVNS_1tS7zBS6pi4U5MNH53g",
                 port="21182",
                 sslmode="require"
             )
