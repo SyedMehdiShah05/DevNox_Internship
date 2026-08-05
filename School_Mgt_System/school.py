@@ -1,3 +1,6 @@
+from pathlib import Path
+
+
 class School:
     def __init__(self, name, address):
         self.name = name
@@ -8,7 +11,9 @@ class School:
         self.timetables = []
 
     def save_to_file(self, record_type, item):
-        with open("School_Mgt_System/school_data.txt", "a") as file:
+        data_file = Path(__file__).resolve().with_name("school_data.txt")
+        data_file.parent.mkdir(parents=True, exist_ok=True)
+        with data_file.open("a", encoding="utf-8") as file:
             file.write(f"{record_type} | {item.display()}\n")
 
     # --- ADD METHODS (Now with auto-save) ---

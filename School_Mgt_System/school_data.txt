@@ -20,3 +20,11 @@ STUDENT | ID: 300 | Name: Mosvi | Grade: 67
 TEACHER | Name: Shah | Teaches: AI/ML | Contact: 03210101
 CLASSROOM | Room ID: C01 | Capacity: 80 | Type: Lec
 STUDENT | ID: 201 | Name: 301 | Grade: 89
+TEACHER | Name: Ada | Teaches: None | Contact: None
+STUDENT | ID: 1 | Name: Ali | Grade: A
+TEACHER | Name: Ada | Teaches: Math | Contact: 7
+STUDENT | ID: 1 | Name: Ali | Grade: A
+TEACHER | Name: Ada | Teaches: Math | Contact: 7
+STUDENT | ID: 3939 | Name: mehdi | Grade: 89
+CLASSROOM | Room ID: 88 | Capacity: 60 | Type: lab
+STUDENT | ID: 222 | Name: syed | Grade: 86

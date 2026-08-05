@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>View Data</h2>
+    
+    <h3>Students:</h3>
+    <ul>
+        {% for s in school.students %} <li>{{ s.display() }}</li> {% endfor %}
+    </ul>
+
+    <h3>Teachers:</h3>
+    <ul>
+        {% for t in school.teachers %} <li>{{ t.display() }}</li> {% endfor %}
+    </ul>
+
+    <h3>Classroom:</h3>
+    <ul>
+        {% for c in school.classrooms %} <li>{{ c.display() }}</li> {% endfor %}
+    </ul>
+
+    <h3>Timetable:</h3>
+    <ul>
+        {% for tt in school.timetables %} <li>{{ tt.display() }}</li> {% endfor %}
+    </ul>
+
+    <br>
+    <a href="/"><- Back to menu</a>
+</body>
+</html>
