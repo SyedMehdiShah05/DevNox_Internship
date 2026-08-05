@@ -8,3 +8,15 @@ TIMETABLE | monday at 10:30 - Computer
 STUDENT | ID: 65 | Name: khan | Grade: 99
 TIMETABLE | tuesday at 11:00 - java
 CLASSROOM | Room ID: C09 | Capacity: 80 | Type: Lab
+STUDENT | ID: 301 | Name: Mehdi | Grade: 88
+TEACHER | Name: Rauf | Teaches: Python | Contact: 0321999
+STUDENT | ID: 333 | Name: kazim | Grade: 56
+TEACHER | Name: Khan | Teaches: JS | Contact: 0993312
+CLASSROOM | Room ID: R1 | Capacity: 90 | Type: Lec
+CLASSROOM | Room ID: C10 | Capacity: 89 | Type: Lab
+TIMETABLE | Thursday at 09:00 - Database
+TIMETABLE | sunday at 10:00 - Web Engr
+STUDENT | ID: 300 | Name: Mosvi | Grade: 67
+TEACHER | Name: Shah | Teaches: AI/ML | Contact: 03210101
+CLASSROOM | Room ID: C01 | Capacity: 80 | Type: Lec
+STUDENT | ID: 201 | Name: 301 | Grade: 89
