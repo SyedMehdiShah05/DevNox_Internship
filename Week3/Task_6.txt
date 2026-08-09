@@ -1,0 +1,29 @@
+#Task 6 - Push a small script to GitHub with at least 3 meaningful, separate commits.
+
+
+git add .
+git commit -m "initial commit/ first commit"
+git push
+
+git add .
+git commit -m "Add REST API data fetching"
+git push
+
+git add .
+git commit -m "Create reusable visualization module"
+git push
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+| Command                  | Purpose                        |
+| ------------------------ |------------------------------- |
+| git init                 | Start Git in a project         |
+| git status               | Check changed files            |
+
+| git add .                | Stage changes                  |
+| git commit -m "..."      | Save changes locally           |
+| git push                 | Upload commits to GitHub       |
+
+| git pull                 | Download latest GitHub changes |
+| git log                  | View commit history            |
+| git remote -v            | Check GitHub connection        |

@@ -1,0 +1,4 @@
+1. The dataset contains three different flower species with an equal number of observations.
+2. Petal length shows different distributions across the flower species.
+3. Petal length and petal width have a strong positive relationship.
+4. The scatter plot shows that the flower species can be visually separated using petal measurements.
