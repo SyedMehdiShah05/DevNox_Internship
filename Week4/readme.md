@@ -239,7 +239,7 @@ The decision boundary separates the two classes.
 
 ---
 
-# 🚀 Mini Project — Marks Predictor & Pass/Fail Classifier
+# 🚀 Task 7 : Mini Project 1— Marks Predictor & Pass/Fail Classifier
 
 ## Project Overview
 
@@ -327,8 +327,6 @@ MSE: 14.82
 R² Score: 0.94
 ```
 
-> The values above are examples. Actual results depend on the dataset used.
-
 ---
 
 ## 🎯 Classification Evaluation
@@ -350,8 +348,6 @@ Accuracy: 0.90
 Precision: 0.91
 Recall: 0.89
 ```
-
-> These are example values, not fixed expected results.
 
 ---
 
@@ -387,6 +383,12 @@ Recall: 0.89
 | Decision Boundary   | Separates classes in feature space  |
 
 
+Note :
+```
+Task 7 : Mini Practice Project 2 , Supervised Machine Learning
+Task 7 : Mini Practice Project 3 , Regression Algorithms
+Task 7 : Mini Practice Project 4 , Classification Algorithms
+```
 ## 👨‍💻 Author
 
 **Mehdi Mosvii**
