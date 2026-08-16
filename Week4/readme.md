@@ -398,4 +398,4 @@ Interested in **Data Science, Machine Learning, Deep Learning & Artificial Intel
 
 ---
 
-⭐ This repository documents my **Week 4 Machine Learning Foundations** practice and progress.
+⭐ This repository documents is my Internship  **Week 4 Machine Learning Foundations** practice and progress.
