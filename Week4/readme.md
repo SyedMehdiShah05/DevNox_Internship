@@ -17,7 +17,7 @@ By completing Week 4, you will learn how to:
 * Visualize a classifier's decision boundary.
 * Build a complete beginner-level ML project.
 
-
+## Task 1 — Statistics Fundamentals
 ### Objective
 
 Calculate the following statistical measures manually and verify the results using NumPy:
