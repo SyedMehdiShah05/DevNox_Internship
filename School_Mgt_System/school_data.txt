@@ -28,3 +28,8 @@ TEACHER | Name: Ada | Teaches: Math | Contact: 7
 STUDENT | ID: 3939 | Name: mehdi | Grade: 89
 CLASSROOM | Room ID: 88 | Capacity: 60 | Type: lab
 STUDENT | ID: 222 | Name: syed | Grade: 86
+STUDENT | ID: 301-231117 | Name: Syed Mehdi | Grade: 3.4
+TEACHER | Name: Rauf | Teaches: Programming | Contact: 0055
+CLASSROOM | Room ID: HEC Smart Classroom | Capacity: 30 | Type: Internship
+TIMETABLE | 3rd Block at 11: 30 - Programming
+TEACHER | Name: Zaryab | Teaches: Python  | Contact: 01122
