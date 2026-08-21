@@ -95,3 +95,20 @@
 * Input Validation
 * Basic Program Design
 * Debugging Fundamentals
+
+
+
+# 👨‍💻 Author
+
+**Syed Mehdi Shah**
+
+BS Computer Science Student
+
+Interested in:
+- Data Science
+- Machine Learning
+- Artificial Intelligence
+- Python Development
+- Data Analytics
+
+---
