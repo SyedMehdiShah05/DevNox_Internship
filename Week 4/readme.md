@@ -391,7 +391,7 @@ Task 7 : Mini Practice Project 4 , Classification Algorithms
 ```
 ## 👨‍💻 Author
 
-**Mehdi Mosvii**
+**Syed Mehdi Shah**
 
 BS Computer Science Student
 Interested in **Data Science, Machine Learning, Deep Learning & Artificial Intelligence**
