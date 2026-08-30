@@ -42,7 +42,7 @@ Week5/
 └── MiniProject_StudentSegmentation/
 
 
----
+---text
 
 # 🧠 Task 1 — K-Nearest Neighbors From Scratch
 
