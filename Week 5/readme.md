@@ -24,7 +24,7 @@ The week contains six practice tasks and one mini project.
 
 # 📁 Project Structure
 
-```text
+``` 
 Week5/
 │
 ├── Task1_KNN/
@@ -542,4 +542,3 @@ Interested in **Data Science, Machine Learning, Deep Learning & Artificial Intel
 ---
 
 ⭐ This repository documents is my Internship  **Week 5 Machine Learning** practice and progress.
- 
