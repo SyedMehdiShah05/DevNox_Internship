@@ -42,7 +42,7 @@ Week5/
 └── MiniProject_StudentSegmentation/
 
 
----text
+```
 
 # 🧠 Task 1 — K-Nearest Neighbors From Scratch
 
@@ -63,7 +63,7 @@ Implement the **K-Nearest Neighbors (KNN)** classification algorithm without usi
 
 The distance between two points is calculated using:
 
-```text
+```
 d = √((x₁ - x₂)² + (y₁ - y₂)²)
 ```
 
